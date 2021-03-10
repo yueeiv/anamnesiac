@@ -11241,3 +11241,83 @@
       - desc: ATK DMG Taken +50%, INT DMG Taken +30% (Enemies/20s)
     power: ATK x 5000%
     maxHits: 14
+
+- name: Frei
+  cat: jp
+  picture: Char_Placeholder_M_Valka
+  weapon: greatsword
+  ace: true
+  limited: true
+  star: 5
+
+  stats:
+    hp: 15435
+    atk: 2744
+    int: 1549
+    def: 1943
+    hit: 1127
+    grd: 847
+
+  talents:
+    - name: "Eyes That Perceive Truth"
+      effects: 
+        - desc: +1000 ATK/INT (Party)
+        - desc: +1850 ATK at HC 150+ (Party)
+        - desc: -850 ATK when Freya takes damage of 1%++ of health (Party)
+
+    - name: "Manuscript Delivering Blade"
+      effects:
+        - desc: Assist +2
+        - desc: 3%/3s rush recovery (Party)
+        - desc: -30% AP when Freya activates VG (Party/4s)
+
+     - name: "Childhood & Charity"
+      effects:
+        - desc: -100% DMG Taken after dodging (1s)
+        - desc: CA CB 200%
+        - desc: -80% AP on dodge
+        - desc: Slightly recover AP when activating VG
+
+      - name: "Curse of Unleashed Wisdom"
+        effects:
+         - desc: +30% ATK and +20% HP
+         - desc: Mantain CB after 2 dodges
+
+       - name: "Vanguard / Freya"
+        effects:
+          - desc: +15% ATK when activating VG (4s)
+          - desc: Anti flinch while CAing
+          - desc: CA Crit Null
+          
+         
+
+  skills:
+    - name: "1"
+      picture: Skill_Placeholder
+      power: ATK x 410% 
+      ap: 19
+      maxHits: 10
+    - name: "2"
+      picture: Skill_Placeholder
+      power: ATK x 500%
+      ap: 20
+      maxHits: 4
+    - name: "3"
+      picture: Skill_Placeholder
+      power: ATK x 530%
+      ap: 23
+      maxHits: 5
+    - name: "4"
+      picture: Skill_Placeholder
+      power: ATK x 1120%
+      ap: 28
+      maxHits: 6
+
+  rush:
+    name: "Liquidation"
+    picture: Rush_Placeholder
+    effects:
+      - desc: Cure conditions & Status immunity (Party) | +65% Crit (Party)
+        duration: 20
+    power: ATK x 6500%
+    maxHits: 6
